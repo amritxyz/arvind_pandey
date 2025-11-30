@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Facebook, Github, Linkedin, Mail } from "lucide-react";
 import beeoImage from "../assets/beeo.jpg";
 
 const Hero = () => {
@@ -45,31 +45,36 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-sm md:text-base text-foreground/90 leading-relaxed max-w-3xl">
-              I am a 6th Officer in the Nepal Government, but my identity extends far beyond my professional title.
+              I am a 6th Officer in the Nepal Government, but my identity extends far beyond my professional title. My role allows me to directly contribute to the development of policies and initiatives that shape the lives of citizens, ensuring effective governance and sustainable solutions.
             </p>
 
             {/* Social icons row */}
             <div className="flex items-center justify-center gap-2 md:gap-3 pt-1">
               <a
-                href="https://github.com/beeplap"
+                href="https://www.facebook.com/arvind.pandey.77985"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="GitHub"
+                aria-label="Facebook"
                 className="h-9 w-9 rounded-full border border-border/70 bg-background/60 flex items-center justify-center hover:shadow-[0_0_18px_hsl(var(--primary)/0.22)] transition-shadow"
               >
-                <Github className="h-4.5 w-4.5" />
+                <Facebook className="h-4.5 w-4.5" />
               </a>
               <a
-                href="https://www.linkedin.com/in/beeplap-gharti-magar-5027592b9/"
+                href="https://wa.me/9779857088851"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="LinkedIn"
+                aria-label="Whatsapp"
                 className="h-9 w-9 rounded-full border border-border/70 bg-background/60 flex items-center justify-center hover:shadow-[0_0_18px_hsl(var(--primary)/0.22)] transition-shadow"
               >
-                <Linkedin className="h-4.5 w-4.5" />
+                <svg className="w-9 h-9" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24">
+                  <g fill="none">
+                    <path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"></path>
+                    <path fill="currentColor" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10a9.96 9.96 0 0 1-4.863-1.26l-.305-.178l-3.032.892a1.01 1.01 0 0 1-1.28-1.145l.026-.109l.892-3.032A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2m0 2a8 8 0 0 0-6.759 12.282c.198.312.283.696.216 1.077l-.039.163l-.441 1.501l1.501-.441c.433-.128.883-.05 1.24.177A8 8 0 1 0 12 4M9.102 7.184a.7.7 0 0 1 .684.075c.504.368.904.862 1.248 1.344l.327.474l.153.225a.71.71 0 0 1-.046.864l-.075.076l-.924.686a.23.23 0 0 0-.067.291c.21.38.581.947 1.007 1.373c.427.426 1.02.822 1.426 1.055c.088.05.194.034.266-.031l.038-.045l.601-.915a.71.71 0 0 1 .973-.158l.543.379c.54.385 1.059.799 1.47 1.324a.7.7 0 0 1 .089.703c-.396.924-1.399 1.711-2.441 1.673l-.159-.01l-.191-.018l-.108-.014l-.238-.04c-.924-.174-2.405-.698-3.94-2.232c-1.534-1.535-2.058-3.016-2.232-3.94l-.04-.238l-.025-.208l-.013-.175l-.004-.075c-.038-1.044.753-2.047 1.678-2.443"></path>
+                  </g>
+                </svg>
               </a>
               <a
-                href="mailto:ghartibeeplap@gmail.com"
+                href="mailto:arvindtech93@gmail.com"
                 onClick={openMailClient}
                 aria-label="Email"
                 className="h-9 w-9 rounded-full border border-border/70 bg-background/60 flex items-center justify-center hover:shadow-[0_0_18px_hsl(var(--primary)/0.22)] transition-shadow"
