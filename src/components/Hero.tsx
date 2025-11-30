@@ -4,7 +4,7 @@ import beeoImage from "../assets/beeo.jpg";
 const Hero = () => {
   const openMailClient = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    const email = 'ghartibeeplap@gmail.com';
+    const email = 'arvindtech93@gmail.com';
     const subject = 'Hello from your portfolio!';
     const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
     window.open(mailtoLink, '_blank');
@@ -45,7 +45,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-sm md:text-base text-foreground/90 leading-relaxed max-w-3xl">
-              I am a 6th Officer in the Nepal Government, but my identity extends far beyond my professional title. My role allows me to directly contribute to the development of policies and initiatives that shape the lives of citizens, ensuring effective governance and sustainable solutions.
+              I am a Lecturer at Crimson College of Technology, where I have the privilege of shaping the minds of future technologists and innovators. My passion for education extends beyond the classroom as I strive to inspire students to excel in their academic and professional journeys.
             </p>
 
             {/* Social icons row */}

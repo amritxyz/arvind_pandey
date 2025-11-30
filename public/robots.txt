@@ -1,4 +1,4 @@
-# Robots.txt for Beeplap Portfolio
+# Robots.txt for Arvind Pandey Portfolio
 # Last updated: 2025-10-29
 
 # Allow all major search engines
@@ -37,6 +37,6 @@ Allow: /
 # Crawl-delay: 10  # Optional: uncomment and tune if your server is small
 
 # Sitemap location
-Sitemap: https://beeplap.com.np/sitemap.xml
+Sitemap: https://arvindpandey.com.np/sitemap.xml
 
 # End of robots.txt

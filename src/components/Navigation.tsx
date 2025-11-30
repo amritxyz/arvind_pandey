@@ -1,7 +1,7 @@
 "use client"
 import { useState, useRef, useLayoutEffect, useEffect } from "react"
 import { Menu, X } from "lucide-react"
-import beeplapimg from "../assets/beeplap.jpg"
+import beeoImage from "../assets/beeo.jpg"
 
 interface NavItem {
   name: string
@@ -144,8 +144,8 @@ const Navigation = () => {
         
         <div className="flex items-center gap-4">
           <img
-            src={beeplapimg}
-            alt="Beeplap Gharti Magar Profile"
+            src={beeoImage}
+            alt="Arvind Pandey Profile"
             className="w-10 h-10 rounded-full object-cover border border-white/20 transition-all duration-300 hover:border-white/40 hover:scale-105"
           />
         </div>

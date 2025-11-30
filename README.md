@@ -1,4 +1,4 @@
-# Beeplap Portfolio
+# Arvind Pandey Portfolio
 
 Modern personal portfolio built with React, TypeScript, Vite, Tailwind CSS, and shadcn/ui.
 

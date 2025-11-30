@@ -3,7 +3,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://beeplap.com.np/</loc>
+    <loc>https://arvindpandey.com.np/</loc>
     <lastmod>2025-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- Projects page -->
   <url>
-    <loc>https://beeplap.com.np/projects</loc>
+    <loc>https://arvindpandey.com.np/projects</loc>
     <lastmod>2025-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -19,7 +19,7 @@
 
   <!-- About page -->
   <url>
-    <loc>https://beeplap.com.np/about</loc>
+    <loc>https://arvindpandey.com.np/about</loc>
     <lastmod>2025-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -27,7 +27,7 @@
 
   <!-- Contact page -->
   <url>
-    <loc>https://beeplap.com.np/contact</loc>
+    <loc>https://arvindpandey.com.np/contact</loc>
     <lastmod>2025-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -36,7 +36,7 @@
   <!-- Optional: Blog or notes section (if you add later) -->
   <!--
   <url>
-    <loc>https://beeplap.com.np/blog</loc>
+    <loc>https://arvindpandey.com.np/blog</loc>
     <lastmod>2025-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

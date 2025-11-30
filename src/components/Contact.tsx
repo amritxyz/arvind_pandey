@@ -1,7 +1,7 @@
 const Contact = () => {
   const openMailClient = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    const email = 'ghartibeeplap@gmail.com';
+    const email = 'arvindtech93@gmail.com';
     const subject = 'Hello from your portfolio!';
     const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
     window.open(mailtoLink, '_blank');
@@ -13,11 +13,11 @@ const Contact = () => {
         <p className="text-xl mb-8">LET'S CHAT!</p>
         
         <a
-          href="mailto:ghartibeeplap@gmail.com"
+          href="mailto:arvindtech93@gmail.com"
           onClick={openMailClient}
           className="text-xl text-primary hover:text-primary/80 transition-colors"
         >
-          ghartibeeplap@gmail.com
+          arvindtech93@gmail.com
         </a>
       </div>
     </section>
