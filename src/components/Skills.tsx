@@ -17,6 +17,7 @@ const Skills = () => {
         "Python",
         "Typescript",
         "Java",
+        "Sprint Boot",
         "PHP",
         "PostgreSQL",
         "MySQL",
